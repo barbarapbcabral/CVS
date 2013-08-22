@@ -10,3 +10,8 @@ Vários clientes podem editar cópias do mesmo projeto de maneira concorrente. Q
 Clientes podem comparar diferentes versões de um arquivo, pedir um histórico completo das alterações, ou baixar uma determinada versão do projeto, ou de uma data específica, não necessariamente a versão mais atual. Muitos projetos de código aberto permitem acesso para leitura anônimo, o que significa que qualquer pessoa pode baixar ou comparar versões sem necessidade de autenticação; somente para salvar mudanças é necessário informar a senha nesses casos.
 
 Clientes também podem usar o comando "update" para manter suas cópias locais atualizadas com a última versão do servidor. Isso elimina a necessidade de se fazer diversos downloads de todo o projeto
+
+
+O CVS também pode manter diferentes "estados" do projeto. Por exemplo, uma versão do software pode ser um desses estados, usado para correção de bugs, enquanto outra versão, que está realmente sob desenvolvimento, sofrendo alterações e tendo novas funcionalidades implementadas, forma o outro estado.
+
+O CVS usa compressão delta para armazenar de maneira eficiente diferentes versões de um mesmo arquivo.
